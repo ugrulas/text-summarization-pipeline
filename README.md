@@ -2,6 +2,11 @@
 
 ## To-Do List
 
+### Repository Setup
+- [ ] **Repository Setup:** 
+    - [ ] Setup pre-commit hooks
+    - [ ] Setup CI/CD pipeline
+
 ### Model Development
 - [ ] **Web Scraping Module Development:** Create a module for efficient and scalable web scraping.
     - [x] Identify and select scraping libraries and tools
@@ -22,6 +27,7 @@
 - [ ] **Integration with Vector Store for RAG:** 
     - [ ] Integrate the summarization model with the vector store
     - [ ] Run the model on the pfizer data
+    - [ ] Implement map-reduce
     - [ ] Test and validate model performance under different settings
 
 ### Deployment Strategies
