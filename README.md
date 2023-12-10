@@ -5,6 +5,7 @@
 ### Repository Setup
 - [ ] **Repository Setup:** 
     - [ ] Setup pre-commit hooks
+    - [ ] Development and Testing Environment Setup
     - [ ] Setup CI/CD pipeline
 
 ### Model Development
@@ -19,6 +20,7 @@
     - [x] Build the vector store using wikilingua dataset
     - [ ] Select a more advanced embedding model that handles long sequences better
     - [ ] Test and validate model performance (PCA, t-SNE, etc. can be useful for visualization)
+    - [ ] Vector Database
 
 - [ ] **Summarization Model:** 
     - [x] Develop an initial text summarization model on wikilingua dataset 
@@ -31,7 +33,6 @@
     - [ ] Test and validate model performance under different settings
 
 ### Deployment Strategies
-
 - [ ] **Deployment Pipeline Development:** Establish robust deployment pipelines for the integrated modules.
 
 - [ ] **Scalability and Maintenance:** Ensure the infrastructure is scalable and maintainable.
