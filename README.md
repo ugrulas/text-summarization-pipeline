@@ -20,19 +20,25 @@
     - [x] Build the vector store using wikilingua dataset
     - [ ] Select a more advanced embedding model that handles long sequences better
     - [ ] Test and validate model performance (PCA, t-SNE, etc. can be useful for visualization)
-    - [ ] Vector Database Implementation 
+    - [ ] Vector Database Implementation (Need for large scale deployment)
+
+- [x] **RAG QA:**
+    - [x] Implement RAG QA on the pfizer data
+    - [ ] Evaluate the model on Finetuned Llama 2
+    - [ ] Instruct Embedding Model to generate embeddings for the documents
 
 - [ ] **Summarization Model:** 
     - [x] Develop an initial text summarization model on wikilingua dataset 
-    - [ ] Implement evaluation metrics (BLEU, ROUGE, etc.)
+    - [x] Implement evaluation metrics (BLEU, ROUGE, etc.)
     - [ ] Play with temperature, top-k, top-p, repetetion penalty, etc. to improve the model performance
+    - [ ] Finetune Llama 2 with LoRA
 
 - [ ] **Integration with Vector Store for RAG:** 
-    - [ ] Integrate the summarization model with the vector store
+    - [x] Integrate the summarization model with the vector store
     - [ ] Run the model on the pfizer data
     - [ ] Implement map-reduce for efficient processing and summarization of multiple documents
-    - [ ] Test and validate model performance under different settings 
-    - [ ] Finetune Llama 2 with LoRA
+    - [ ] Test and validate model performance under different settings (e.g. zero-shot, few-shot, finetuned, etc.)
+
 
 ### Deployment Strategies
 - [ ] **Deployment Pipeline Development:** Establish robust deployment pipelines for the integrated modules.
